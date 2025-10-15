@@ -3,14 +3,13 @@
     python3 Data_Download_Updated.py himawari9 2019-02-20 2019-02-20 --hours  12 18 --out ./MET499/WPAC/2019/WUTIP --bands B07 B11 B13 B14 B15
 NOTE: Adjust "himawari9" to any of the below satellites
 # --- Map satellite to AWS bucket ---
-SAT_BUCKETS = {
+    SAT_BUCKETS = {
     "goes16": "s3://noaa-goes16/ABI-L1b-RadF",
     "goes17": "s3://noaa-goes17/ABI-L1b-RadF",
     "goes18": "s3://noaa-goes18/ABI-L1b-RadF",
     "goes19": "s3://noaa-goes19/ABI-L1b-RadF",  # placeholder
     "himawari8": "s3://noaa-himawari8/AHI-L1b-FLDK",
-    "himawari9": "s3://noaa-himawari9/AHI-L1b-FLDK",
-}
+    "himawari9": "s3://noaa-himawari9/AHI-L1b-FLDK",}
 
 <br>
 <br>
