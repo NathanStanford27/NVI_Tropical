@@ -1,3 +1,13 @@
+"Data_Download_Updated.py" downloads Himawari and GOES imagery from AWS
+# Data Download Command Line
+    python3 Data_Download_Updated.py himawari9 2019-02-20 2019-02-20 --hours  12 18 --out ./MET499/WPAC/2019/WUTIP --bands B07 B11 B13 B14 B15
+NOTE: Adjust "himawari9" for the necessary satellite (goes-16, etc.) 
+
+<br>
+<br>
+<br>
+<br>
+
 Example command line to run NVI pipeline for Himawari/GOES imagery:
 # Himawari Command Line
     python3 File_DEV_AHI.py /mnt/e/MET499/WPAC_besttrack_combined.xlsx AMPIL /mnt/e/MET499/WPAC/2024/AMPIL #Himawari
