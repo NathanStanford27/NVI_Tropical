@@ -1,4 +1,4 @@
-Example command line to run NVI pipeline for a Himawari/GOES imagery:
+Example command line to run NVI pipeline for Himawari/GOES imagery:
 # Himawari Command Line
     python3 File_DEV_AHI.py /mnt/e/MET499/WPAC_besttrack_combined.xlsx AMPIL /mnt/e/MET499/WPAC/2024/AMPIL #Himawari
 # GOES Command Line
