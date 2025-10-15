@@ -30,7 +30,7 @@ corrects this handling via linear interpolation between nearest neighbors.
     else:
         print(f"[WARN] No valid input for PREDICT-master in {dir_path}")
 
-NOTE: Normalizes the imagery from GEO satellite
+NOTE: Normalizes the imagery data from GEO satellites from brightness temperatures to [0,1] values for NVI imagery
 
 # --- Stage 1d: main.py (FNN-AHI-predict) ---
     pm_npz_files_list = glob.glob(os.path.join(dir_path, "*PM*.npz"))
