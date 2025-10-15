@@ -1,8 +1,0 @@
-#! /usr/bin/bash
-
-python3 ML_normalization_ALL.py /mnt/d/Thesis/ManYi/11_20/12 ML_truth_DATA_SINGLESAMPLE_MODEL_M40_1024_GOES_ALL_15INPUT_2023-08-30T0230.npz 12
-python3 ML_normalization_ALL.py /mnt/d/Thesis/ManYi/11_20/18 ML_truth_DATA_SINGLESAMPLE_MODEL_M40_1024_GOES_ALL_15INPUT_2023-08-30T0235.npz 18
-python3 ML_normalization_ALL.py /mnt/d/Thesis/ManYi/11_21/12 ML_truth_DATA_SINGLESAMPLE_MODEL_M40_1024_GOES_ALL_15INPUT_2023-08-30T0240.npz 12
-python3 ML_normalization_ALL.py /mnt/d/Thesis/ManYi/11_26/12 ML_truth_DATA_SINGLESAMPLE_MODEL_M40_1024_GOES_ALL_15INPUT_2023-08-30T0244.npz 12
-python3 ML_normalization_ALL.py /mnt/d/Thesis/ManYi/11_26/18 ML_truth_DATA_SINGLESAMPLE_MODEL_M40_1024_GOES_ALL_15INPUT_2023-08-30T0248.npz 18
-python3 ML_normalization_ALL.py /mnt/d/Thesis/ManYi/11_27/12 ML_truth_DATA_SINGLESAMPLE_MODEL_M40_1024_GOES_ALL_15INPUT_2023-08-30T0253.npz 12

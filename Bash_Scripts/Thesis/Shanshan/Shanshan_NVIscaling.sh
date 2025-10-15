@@ -1,9 +1,0 @@
-#! /usr/bin/bash
-
-python3 NVI_to_SWIR_scaling.py /mnt/d/Thesis/Shanshan/08_03/12 ML_truth_DATA_SINGLESAMPLE_MODEL_M10_512_GOES_C13_10INPUT_2023-11-06T1303.npz 12
-python3 NVI_to_SWIR_scaling.py /mnt/d/Thesis/Shanshan/08_03/18 ML_truth_DATA_SINGLESAMPLE_MODEL_M10_512_GOES_C13_10INPUT_2023-11-06T1307.npz 18
-
-python3 NVI_to_SWIR_scaling.py /mnt/d/Thesis/Shanshan/08_08/18 ML_truth_DATA_SINGLESAMPLE_MODEL_M10_512_GOES_C13_10INPUT_2023-11-06T1309.npz 18
-
-python3 NVI_to_SWIR_scaling.py /mnt/d/Thesis/Shanshan/08_09/12 ML_truth_DATA_SINGLESAMPLE_MODEL_M10_512_GOES_C13_10INPUT_2023-11-06T1312.npz 12
-python3 NVI_to_SWIR_scaling.py /mnt/d/Thesis/Shanshan/08_09/18 ML_truth_DATA_SINGLESAMPLE_MODEL_M10_512_GOES_C13_10INPUT_2023-11-06T1314.npz 18
