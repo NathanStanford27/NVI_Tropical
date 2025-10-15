@@ -2,7 +2,7 @@
 # Data Download Command Line
     python3 Data_Download_Updated.py himawari9 2019-02-20 2019-02-20 --hours  12 18 --out ./MET499/WPAC/2019/WUTIP --bands B07 B11 B13 B14 B15
 NOTE: Adjust "himawari9" to any of the below satellites
-# --- Map satellite to AWS bucket ---
+# Map satellite to AWS bucket
     SAT_BUCKETS = {
     "goes16": "s3://noaa-goes16/ABI-L1b-RadF",
     "goes17": "s3://noaa-goes17/ABI-L1b-RadF",
