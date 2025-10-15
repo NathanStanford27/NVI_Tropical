@@ -53,18 +53,21 @@ def parse_filename_ahi(path):
         'start': start,
     }
 
+from collections import defaultdict
+
 def group_ahi_by_time_sat(ahi_dir):
-    """Group AHI files by datetime key."""
+    """Group AHI files by datetime key, including HS_H08 and HS_H09 sensors."""
     ahis = [
         parse_filename_ahi(f)
         for f in ahi_dir.iterdir()
-        if f.suffix == '.DAT' and 'HS_H09' in f.name
+        if f.suffix.upper() == '.DAT' and ('HS_H08' in f.name or 'HS_H09' in f.name)
     ]
     d = defaultdict(list)
     for ahi in ahis:
         d[ahi['datetime']].append(ahi)
     print("Grouped AHI timesteps:", list(d.keys()))
     return d
+
 
 # ---------------------------------------------------------
 # PROCESS FUNCTION
