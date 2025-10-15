@@ -1,0 +1,20 @@
+#! /usr/bin/bash
+
+
+python3 ML_normalization_C13.py /mnt/d/Thesis/Pabuk/12_31/12 ML_truth_DATA_SINGLESAMPLE_MODEL_M10_512_GOES_C13_10INPUT_2023-12-14T2140.npz 12
+python3 ML_normalization_C13.py /mnt/d/Thesis/Pabuk/12_31/18 ML_truth_DATA_SINGLESAMPLE_MODEL_M10_512_GOES_C13_10INPUT_2023-12-14T2143.npz 18
+
+python3 ML_normalization_C13.py /mnt/d/Thesis/Pabuk/01_01/12 ML_truth_DATA_SINGLESAMPLE_MODEL_M10_512_GOES_C13_10INPUT_2023-12-14T2146.npz 12
+python3 ML_normalization_C13.py /mnt/d/Thesis/Pabuk/01_01/18 ML_truth_DATA_SINGLESAMPLE_MODEL_M10_512_GOES_C13_10INPUT_2023-12-14T2149.npz 18
+
+python3 ML_normalization_C13.py /mnt/d/Thesis/Pabuk/01_02/12 ML_truth_DATA_SINGLESAMPLE_MODEL_M10_512_GOES_C13_10INPUT_2023-12-14T2152.npz 12
+python3 ML_normalization_C13.py /mnt/d/Thesis/Pabuk/01_02/18 ML_truth_DATA_SINGLESAMPLE_MODEL_M10_512_GOES_C13_10INPUT_2023-12-14T2155.npz 18
+
+python3 ML_normalization_C13.py /mnt/d/Thesis/Pabuk/01_03/12 ML_truth_DATA_SINGLESAMPLE_MODEL_M10_512_GOES_C13_10INPUT_2023-12-14T2158.npz 12
+python3 ML_normalization_C13.py /mnt/d/Thesis/Pabuk/01_03/18 ML_truth_DATA_SINGLESAMPLE_MODEL_M10_512_GOES_C13_10INPUT_2023-12-14T2200.npz 18
+
+python3 ML_normalization_C13.py /mnt/d/Thesis/Pabuk/01_04/12 ML_truth_DATA_SINGLESAMPLE_MODEL_M10_512_GOES_C13_10INPUT_2023-12-14T2203.npz 12
+python3 ML_normalization_C13.py /mnt/d/Thesis/Pabuk/01_04/18 ML_truth_DATA_SINGLESAMPLE_MODEL_M10_512_GOES_C13_10INPUT_2023-12-14T2206.npz 18
+
+python3 ML_normalization_C13.py /mnt/d/Thesis/Pabuk/01_05/12 ML_truth_DATA_SINGLESAMPLE_MODEL_M10_512_GOES_C13_10INPUT_2023-12-14T2208.npz 12
+python3 ML_normalization_C13.py /mnt/d/Thesis/Pabuk/01_05/18 ML_truth_DATA_SINGLESAMPLE_MODEL_M10_512_GOES_C13_10INPUT_2023-12-14T2211.npz 18

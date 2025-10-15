@@ -1,0 +1,13 @@
+#! /usr/bin/bash
+
+
+python3 NVI_to_SWIR_scaling.py /mnt/d/Thesis/Cimaron/08_17/12 ML_truth_DATA_SINGLESAMPLE_MODEL_M10_512_GOES_C13_10INPUT_2023-11-06T0926.npz 12
+python3 NVI_to_SWIR_scaling.py /mnt/d/Thesis/Cimaron/08_17/18 ML_truth_DATA_SINGLESAMPLE_MODEL_M10_512_GOES_C13_10INPUT_2023-11-06T0930.npz 18
+
+python3 NVI_to_SWIR_scaling.py /mnt/d/Thesis/Cimaron/08_18/12 ML_truth_DATA_SINGLESAMPLE_MODEL_M10_512_GOES_C13_10INPUT_2023-11-06T0933.npz 12
+python3 NVI_to_SWIR_scaling.py /mnt/d/Thesis/Cimaron/08_18/18 ML_truth_DATA_SINGLESAMPLE_MODEL_M10_512_GOES_C13_10INPUT_2023-11-06T0937.npz 18
+
+python3 NVI_to_SWIR_scaling.py /mnt/d/Thesis/Cimaron/08_19/12 ML_truth_DATA_SINGLESAMPLE_MODEL_M10_512_GOES_C13_10INPUT_2023-11-06T0941.npz 12
+python3 NVI_to_SWIR_scaling.py /mnt/d/Thesis/Cimaron/08_19/18 ML_truth_DATA_SINGLESAMPLE_MODEL_M10_512_GOES_C13_10INPUT_2023-11-06T0944.npz 18
+
+python3 NVI_to_SWIR_scaling.py /mnt/d/Thesis/Cimaron/08_23/18 ML_truth_DATA_SINGLESAMPLE_MODEL_M10_512_GOES_C13_10INPUT_2023-11-06T0947.npz 18
